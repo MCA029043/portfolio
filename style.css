@@ -1,0 +1,29 @@
+
+#head img{
+    width: 100%;
+    height: 100%;
+}
+#head a{
+    margin-right: 13px;
+}
+.bg-black{
+    background-color: black;
+    color: rgb(202, 187, 16);
+    font-weight: bolder;
+    font-style: oblique;
+}
+#main-header .port-items{
+   width:30%;
+}
+#main-header .port-items:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#home a:hover{
+    background-color: rgb(2, 2, 2);
+}
+@media(min-width: 1199px){
+     .port-items {
+        padding: 3em !important;
+     }
+}
